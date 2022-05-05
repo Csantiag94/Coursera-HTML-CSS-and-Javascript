@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: fantasy;
 }
 h1 {
     text-align: center;
@@ -18,8 +19,10 @@ p {
 }
 
 .chicken{
-    background-color: salmon;
+    background-color: rgb(33, 163, 63);
+    text-align: center;
     position: absolute;
+    text-align: center;
     top: 0;
     right: 0;
     height: 35px;
@@ -27,7 +30,8 @@ p {
     padding: 10px;
 }
 .beef{
-    background-color: red;
+    background-color: goldenrod;
+    text-align: center;
     color: white;
     position: absolute;
     top: 0;
@@ -37,7 +41,7 @@ p {
     padding: 10px;
 }
 .sushi{
-    background-color: bisque;
+    background-color: hsl(214, 73%, 44%);
     position: absolute;
     top: 0;
     right: 0;
